@@ -34,7 +34,6 @@ jobs:
 
           # Trigger Jenkins Job with Crumb Token
           curl -X POST 
-"$JENKINS_URL/job/j3/buildWithParameters?token=sometoken&branch=main" 
-\
+"$JENKINS_URL/job/j3/buildWithParameters?token=sometoken&branch=main" \
             -u "$USER:$API_TOKEN" \
             -H "$CRUMB_HEADER: $CRUMB_VALUE"
