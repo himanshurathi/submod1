@@ -1,0 +1,3 @@
+[submodule "myweb1"]
+	path = myweb1
+	url = https://github.com/himanshurathi/static-website-example
